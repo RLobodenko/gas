@@ -17,8 +17,8 @@ function f1(){
     var g = a + b + c;
        // document.getElementById('out1').innerHTML = d.toFixed(2) + " м";
        // document.getElementById('out2').innerHTML = e.toFixed(2) + " м";
-    document.getElementById('out3').innerHTML = f.toFixed(2) + " м";
-    document.getElementById('out4').innerHTML = g.toFixed(2) + " м";
+    document.getElementById('out3').innerHTML = f + " м";
+    document.getElementById('out4').innerHTML = g + " м";
 }
 
 
