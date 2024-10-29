@@ -21,7 +21,7 @@ function f1(){
     document.getElementById('out3').innerHTML = j + " м";
     document.getElementById('out4').innerHTML = k + " м";
     document.getElementById('out5').innerHTML = l + " м";
-    document.getElementById('out6').innerHTML = m + " м";
+    document.getElementById('out6').innerHTML = m.toFixed(2) + " м";
     
 }
 
