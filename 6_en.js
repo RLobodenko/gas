@@ -12,6 +12,7 @@ function f1(){
    a=parseFloat(a);
    b=parseFloat(b);
     c=parseFloat(c);
+    l=parseFloat(l);
     let j = a + b + c;
      let k = 0.13 + a + b + c;
       let l = 3.87 - a;
