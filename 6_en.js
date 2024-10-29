@@ -18,9 +18,9 @@ function f1(){
       let l = 3.87 - a;
      let m = c - l;
   
-    document.getElementById('out3').innerHTML = j + " м";
-    document.getElementById('out4').innerHTML = k + " м";
-    document.getElementById('out5').innerHTML = l + " м";
+    document.getElementById('out3').innerHTML = j.toFixed(2) + " м";
+    document.getElementById('out4').innerHTML = k.toFixed(2) + " м";
+    document.getElementById('out5').innerHTML = l.toFixed(2) + " м";
     document.getElementById('out6').innerHTML = m.toFixed(2) + " м";
     
 }
