@@ -21,7 +21,7 @@ function f2() {
 
        
        
-                document.getElementById('out').innerHTML = "0,00094МПа";
+                document.getElementById('out').innerHTML = "0,94кПа";
                 return;
         }
 
@@ -29,7 +29,7 @@ function f2() {
         else if(radio1[i].selected && radio4[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,00074МПа";
+                document.getElementById('out').innerHTML =  "0,74кПа";
                 return;
 
 
@@ -38,7 +38,7 @@ function f2() {
  else if(radio1[i].selected && radio5[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,00059МПа";
+                document.getElementById('out').innerHTML =  "0,59кПа";
                 return;
 
 
@@ -49,7 +49,7 @@ function f2() {
  else if(radio1[i].selected && radio6[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,00047МПа";
+                document.getElementById('out').innerHTML =  "0,47кПа";
                 return;
 
 
@@ -60,7 +60,7 @@ function f2() {
          else if(radio1[i].selected && radio7[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,00042МПа";
+                document.getElementById('out').innerHTML =  "0,42кПа";
                 return;
 
 
@@ -70,7 +70,7 @@ function f2() {
          else if(radio2[i].selected && radio3[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,0225МПа";
+                document.getElementById('out').innerHTML =  "22,5кПа";
                 return;
 
 
@@ -81,7 +81,7 @@ function f2() {
          else if(radio2[i].selected && radio4[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,0179МПа";
+                document.getElementById('out').innerHTML =  "17,9кПа";
                 return;
 
 
@@ -91,7 +91,7 @@ function f2() {
          else if(radio2[i].selected && radio5[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,0143МПа";
+                document.getElementById('out').innerHTML =  "14,3кПа";
                 return;
 
 
@@ -101,7 +101,7 @@ function f2() {
          else if(radio2[i].selected && radio6[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,0113МПа";
+                document.getElementById('out').innerHTML =  "11,3кПа";
                 return;
 
 
@@ -111,7 +111,7 @@ function f2() {
          else if(radio2[i].selected && radio7[i].selected) {
 
  
-                document.getElementById('out').innerHTML =  "0,01МПа";
+                document.getElementById('out').innerHTML =  "10кПа";
                 return;
 
 
