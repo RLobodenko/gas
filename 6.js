@@ -6,13 +6,11 @@ var radio4 = document.getElementsByName('in4');
 var radio5 = document.getElementsByName('in5');
 var radio6 = document.getElementsByName('in6');
 var radio7 = document.getElementsByName('in7');
-var radio8 = document.getElementsByName('in8');
-var radio9 = document.getElementsByName('in9');
 
 
 function f2() {
    
-    for (i=0;i<radio9.length;i++){
+    for (i=0;i<radio7.length;i++){
         
         
      if(radio1[i].selected && radio3[i].selected) {
