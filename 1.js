@@ -12,8 +12,8 @@ function f1(){
 
    var f = a - e;
    
-    document.getElementById('out3').innerHTML = e.toFixed(1) + " руб";
-        document.getElementById('out4').innerHTML = f.toFixed(1) + " руб";
+    document.getElementById('out3').innerHTML = e.toFixed(2) + " руб";
+        document.getElementById('out4').innerHTML = f.toFixed(2) + " руб";
    
     
 }
