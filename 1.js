@@ -5,9 +5,9 @@ function f1(){
     var a = document.getElementById('in1').value;
 
   var c = document.getElementById('in3').value;
-     var d = document.getElementById('in4').value;
+   
 
-     var b = c + d;
+     var b = c + 1.87;
     
     var e = a * c / b ;
 
