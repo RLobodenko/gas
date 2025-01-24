@@ -1,128 +1,19 @@
-var but = document.getElementById('but');
-var radio1 = document.getElementsByName('in1');
-var radio2 = document.getElementsByName('in2');
-var radio3 = document.getElementsByName('in3');
-var radio4 = document.getElementsByName('in4');
-var radio5 = document.getElementsByName('in5');
-var radio6 = document.getElementsByName('in6');
-var radio7 = document.getElementsByName('in7');
+var but1 = document.getElementById('1');
 
+function f1(){
+    
+    var a = document.getElementById('in1').value;
+    var b = document.getElementById('in2').value;
+  var c = document.getElementById('in3').value;
+     var d = document.getElementById('in4').value;
 
-function f2() {
    
-    for (i=0;i<radio7.length;i++){
-        
-        
-     if(radio1[i].selected && radio3[i].selected) {
+    var e = a * c / b ;
 
-       
-          document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML = "1,27кПа";
-                return;
-        }
-
-
-        else if(radio1[i].selected && radio4[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,94кПа";
-                return;
-
-
-
-        }
- else if(radio1[i].selected && radio5[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,74кПа";
-                return;
-
-
-
-        }
-
-
- else if(radio1[i].selected && radio6[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,56кПа";
-                return;
-
-
-
-        }
-
-
-         else if(radio1[i].selected && radio7[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,49кПа";
-                return;
-
-
-
-        }
-
-         else if(radio2[i].selected && radio3[i].selected) {
-
- document.getElementById('out1').innerHTML = "300кПа";
-                document.getElementById('out').innerHTML =  "30,57кПа";
-                return;
-
-
-
-        }
-
-
-         else if(radio2[i].selected && radio4[i].selected) {
-
-  document.getElementById('out1').innerHTML = "300кПа";
-                document.getElementById('out').innerHTML =  "22,64кПа";
-                return;
-
-
-
-        }
-
-         else if(radio2[i].selected && radio5[i].selected) {
-
-  document.getElementById('out1').innerHTML = "300кПа";
-                document.getElementById('out').innerHTML =  "17,71кПа";
-                return;
-
-
-
-        }
-
-         else if(radio2[i].selected && radio6[i].selected) {
- document.getElementById('out1').innerHTML = "300кПа";
- 
-                document.getElementById('out').innerHTML =  "13,37кПа";
-                return;
-
-
-
-        }
-
-         else if(radio2[i].selected && radio7[i].selected) {
- document.getElementById('out1').innerHTML = "300кПа";
- 
-                document.getElementById('out').innerHTML =  "11,71кПа";
-                return;
-
-
-
-        }
-
-        
-
-
-        
-    }
+   var f = a * d / b;
+   
+    document.getElementById('out3').innerHTML = e.toFixed(1) + " руб";
+        document.getElementById('out4').innerHTML = f.toFixed(1) + " руб";
+   
+    
 }
-
-
-
-
-
-
