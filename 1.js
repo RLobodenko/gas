@@ -7,7 +7,7 @@ function f1(){
   var c = document.getElementById('in3').value;
      var d = document.getElementById('in4').value;
 
-     var b = parseFloat('c') + parseFloat('d');
+     var b = parseFloat(c) + parseFloat(d);
     
     var e = a * c / b ;
 
