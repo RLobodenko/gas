@@ -6,9 +6,9 @@ function f1(){
   var c = document.getElementById('in3').value;
      var d = document.getElementById('in4').value;
 
-     var b = c + d;
+     
     
-    var e = a * c / b ;
+    var e = a * c / (c + d) ;
 
    var f = a - e;
    
