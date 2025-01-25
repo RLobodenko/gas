@@ -5,7 +5,7 @@ function f1(){
     var a = document.getElementById('in1').value;
  var b = document.getElementById('in2').value;
   var c = document.getElementById('in3').value;
-   
+     var d = document.getElementById('in4').value;
 
      
     
