@@ -30,7 +30,7 @@ function f2() {
  else if(radio1[i].selected && radio6[i].selected) {
 
  document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,56кПа";
+                document.getElementById('out').innerHTML =  "0,77кПа";
                 return;
 
 
@@ -57,7 +57,7 @@ function f2() {
          else if(radio2[i].selected && radio6[i].selected) {
  document.getElementById('out1').innerHTML = "300кПа";
  
-                document.getElementById('out').innerHTML =  "13,37кПа";
+                document.getElementById('out').innerHTML =  "18,46кПа";
                 return;
 
 
