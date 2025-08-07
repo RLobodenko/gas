@@ -99,7 +99,7 @@ var f = 26 * a + 27 * b + 50 * c + 51.4 * d;
             document.getElementById('out2').innerHTML = k.toFixed(2) + " кПа";
     
     var l = 480 / j
-    document.getElementById('out3').innerHTML = j.toFixed(2) + " кПа";
+    document.getElementById('out3').innerHTML = l.toFixed(2) + " кПа";
        
     }
  
