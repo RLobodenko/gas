@@ -67,12 +67,12 @@ function f1(){
       
   var c = document.getElementById('in9').value;
      var d = document.getElementById('in10').value;
-
+ var m = document.getElementById('in6').value;
      
     
-    var e = 676 * a + 729 * b + 2500 * c + 2641.96 * d;
+    var e = 345.96 * m + 676 * a + 729 * b + 2500 * c + 2641.96 * d;
 
-var f = 26 * a + 27 * b + 50 * c + 51.4 * d;
+var f = 18.6 * m + 26 * a + 27 * b + 50 * c + 51.4 * d;
     
     var j = e / f ;
 
@@ -90,6 +90,7 @@ var f = 26 * a + 27 * b + 50 * c + 51.4 * d;
      
    
     
+
 
 
 
