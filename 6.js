@@ -3,7 +3,6 @@ var radio1 = document.getElementsByName('in1');
 var radio2 = document.getElementsByName('in2');
 
 var radio5 = document.getElementsByName('in5');
-var radio6 = document.getElementsByName('in6');
 
 var one = document.getElementById('1');
 
@@ -11,7 +10,7 @@ var one = document.getElementById('1');
 
 function f2() {
    
-    for (i=0;i<radio6.length;i++){
+    for (i=0;i<radio5.length;i++){
         
         
    
@@ -29,15 +28,6 @@ function f2() {
         }
 
 
- else if(radio1[i].selected && radio6[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,77 кПа";
-                return;
-
-
-
-        }
 
 
     
@@ -56,15 +46,7 @@ function f2() {
 
         }
 
-         else if(radio2[i].selected && radio6[i].selected) {
- document.getElementById('out1').innerHTML = "300кПа";
- 
-                document.getElementById('out').innerHTML =  "18,46 кПа";
-                return;
 
-
-
-        }
 
        
 
@@ -108,5 +90,6 @@ var f = 26 * a + 27 * b + 50 * c + 51.4 * d;
      
    
     
+
 
 
