@@ -8,11 +8,14 @@ function f1(){
      
     
     var b = 3.87 - a ;
-
+    
+    var c = document.getElementById('in2').value;
+    
+  var d = c - b;
    
    
     document.getElementById('out3').innerHTML = b.toFixed(2) + " м";
-      
+    document.getElementById('out2').innerHTML = d.toFixed(2) + " м";
    
     
 }

@@ -1,61 +1,8 @@
-var but = document.getElementById('but');
-var radio1 = document.getElementsByName('in1');
-var radio2 = document.getElementsByName('in2');
 
-var radio5 = document.getElementsByName('in5');
+
 
 var one = document.getElementById('1');
 
-
-
-function f2() {
-   
-    for (i=0;i<radio5.length;i++){
-        
-        
-   
-
-
-        
- if(radio1[i].selected && radio5[i].selected) {
-
- document.getElementById('out1').innerHTML = "10кПа";
-                document.getElementById('out').innerHTML =  "0,74 кПа";
-                return;
-
-
-
-        }
-
-
-
-
-    
-
-         
-
-
-      
-         else if(radio2[i].selected && radio5[i].selected) {
-
-  document.getElementById('out1').innerHTML = "300кПа";
-                document.getElementById('out').innerHTML =  "17,71 кПа";
-                return;
-
-
-
-        }
-
-
-
-       
-
-        
-
-
-        
-    }
-}
 
 
 
