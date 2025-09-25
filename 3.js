@@ -12,10 +12,23 @@ function f1(){
     var c = document.getElementById('in2').value;
     
   var d = c - b;
-   
-   
+    var e = document.getElementById('in3').value;
+    
+    var j = e - b;
+    
+    var f = document.getElementById('in4').value;
+    
+    var k = b - c;
+    
+    var l = f - k;
+    
+    
+    var m = e - c - k;
+    
     document.getElementById('out3').innerHTML = b.toFixed(2) + " м";
     document.getElementById('out2').innerHTML = d.toFixed(2) + " м";
-   
-    
+    document.getElementById('out4').innerHTML = j.toFixed(2) + " м";
+    document.getElementById('out5').innerHTML = k.toFixed(2) + " м";
+    document.getElementById('out6').innerHTML = l.toFixed(2) + " м";
+    document.getElementById('out7').innerHTML = m.toFixed(2) + " м";
 }
