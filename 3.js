@@ -18,14 +18,14 @@ function f1(){
     
 
     
-    var k = b - c;
+
     
    
     
     document.getElementById('out3').innerHTML = b.toFixed(2) + " м";
     document.getElementById('out2').innerHTML = d.toFixed(2) + " м";
     document.getElementById('out4').innerHTML = j.toFixed(2) + " м";
-    document.getElementById('out5').innerHTML = k.toFixed(2) + " м";
+  
 
 }
 
@@ -60,3 +60,4 @@ function f2(){
     document.getElementById('out6').innerHTML = l.toFixed(2) + " м";
     document.getElementById('out7').innerHTML = m.toFixed(2) + " м";
 }
+
